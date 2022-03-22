@@ -21,6 +21,7 @@ urlpatterns = [
     url(r'', include('albums.urls')),
     url(r'', include('artists.urls')),
     url(r'', include('bands.urls')),
+    url(r'', include('people.urls')),
     url(r'', include('playlists.urls')),
     path('admin/', admin.site.urls),
     path('api-auth/', include('rest_framework.urls')),
