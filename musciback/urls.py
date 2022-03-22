@@ -18,6 +18,7 @@ from django.urls import path
 from django.conf.urls import include, url
 
 urlpatterns = [
+    url(r'', include('artists.urls')),
     url(r'', include('bands.urls')),
     path('admin/', admin.site.urls),
     path('api-auth/', include('rest_framework.urls')),
