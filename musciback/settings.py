@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'albums.apps.AlbumsConfig',
     'artists.apps.ArtistsConfig',
     'bands.apps.BandsConfig',
+    'people.apps.PeopleConfig',
     'playlists.apps.PlaylistsConfig',
 ]
 
